@@ -28,9 +28,9 @@ urlpatterns = [
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="My API",
+      title="Quiz Backend API",
       default_version='v1',
-      description="Test description",
+      description="REST API for classroom quiz board: sessions, questions, timers, and scoring.",
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
