@@ -14,4 +14,8 @@ CORS:
 - FRONTEND_URL: React TV app origin (default http://localhost:3000)
 - CORS_ALLOW_ALL: If "true", allow any origin (default true)
 
+General:
+- ALLOWED_HOSTS: Comma-separated list of hosts the backend will serve (default ".kavia.ai,localhost,127.0.0.1,testserver")
+- API_BASE_URL: Optional. Public URL where the backend is reachable by the frontend (e.g., http://localhost:3001). Used by docs/clients if integrated.
+
 See quiz_backend/.env.example for a ready-to-copy template.
